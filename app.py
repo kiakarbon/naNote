@@ -19,6 +19,6 @@ expander.image("https://stuyspec-media.s3.us-east-2.amazonaws.com/rewrite_media/
 
 #option
 if st.button("Catatan", width="stretch", type="primary"):
-    st.switch_page("pages/catatan_1.py", query_params={"page": "catatan"})
+    st.switch_page("pages/note_1.py", query_params={"page": "catatan"})
 if st.button("Kalkulasi", width="stretch", type="primary"):
     st.switch_page("pages/kalkulasi_2.py", query_params={"page": "kalkulasi"})
